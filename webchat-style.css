@@ -1,0 +1,24 @@
+#webchat .conversation-container .header {
+    background-color: #b5810b;
+  }
+
+#webchat .conversation-container .toggle-fullscreen-button {
+    background-color: #b5810b;
+  }
+
+#webchat .conversation-container .close-button {
+    background-color: #b5810b;
+  }
+
+#webchat .conversation-container .client {
+    background-color: #0084ff;
+  }
+
+#webchat .conversation-container .reply {
+    border: 1px solid #0b4780;
+    color: #0b4780;
+  }
+
+#webchat .launcher {
+    background-color: #b5810b;
+  }
