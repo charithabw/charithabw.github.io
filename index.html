@@ -9,19 +9,28 @@
     
     #bgimage{
       width: 100%;
-
-      height: auto;
+      height: auto;      
+ 
     }
 </style>
   </head>
   <body>
-   
-    <img id="bgimage" src="BG-Chatbot.jpg" alt="">
+
+
+<div class="container">
+  <picture>
+      <source srcset="BG-Chatbot-mobileView.jpg" media="(max-width: 600px)">
+      <source srcset="BG-Chatbot.jpg" media="(max-width: 1500px)">
+      <source srcset="BG-Chatbot.jpg">
+      <img id="bgimage" src="BG-Chsatbot.jpg" alt="" >
+    </picture>
+</div> 
+    
   
  <script src="webchat-latest.js"></script>
- 
+<div class = "popup"> 
 <div id="webchat" />
-
+<div>
 
 
 <script>
@@ -62,5 +71,8 @@
 
   </body>
 </html>
+
+
+
 
 
